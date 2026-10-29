@@ -21,11 +21,21 @@ An unofficial YouTube Music desktop app for Windows, built with Python and [pywe
 - Windows 10 / 11 (with WebView2 runtime, usually preinstalled)
 - Python 3.9+
 
-## Installation
+## Download
+
+The easiest way to get started is to download the ready-to-use executable from the [Releases page](https://github.com/EmoChanMC/YouTube-Music/releases/tag/youtube-music). No Python installation required.
+
+1. Go to the [latest release](https://github.com/EmoChanMC/YouTube-Music/releases/tag/youtube-music)
+2. Download the `.exe` file under **Assets**
+3. Run it
+
+> Windows SmartScreen may show a warning for unsigned apps. Click **More info** → **Run anyway** if you trust the source.
+
+## Installation (from source)
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/EmoChanMC/YouTube-Music.git
+cd YouTube-Music
 pip install pywebview pynput pystray pillow
 python ytmusic_app.py
 ```
